@@ -82,6 +82,15 @@
   background: #d4af37;
 }
 
+/* Utility to completely hide scrollbars */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
 /* Glow & Blur Effects */
 .gold-glow {
   box-shadow: 0 0 20px rgba(212, 175, 55, 0.15);

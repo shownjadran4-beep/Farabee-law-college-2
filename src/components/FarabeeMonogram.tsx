@@ -118,7 +118,7 @@ export default function FarabeeMonogram({ size = 200, className = "", glow = tru
         </text>
 
         {/* 4. Central Emblems: Scales of Justice, Graduation Cap (all in gold gradient) */}
-        <g transform="translate(100, 85) scale(0.75)" fill={`url(#${goldGradId})`}>
+        <g transform="translate(100, 85) scale(1.32)" fill={`url(#${goldGradId})`}>
 
           {/* Scales of Justice */}
           <g transform="translate(0, 4)">

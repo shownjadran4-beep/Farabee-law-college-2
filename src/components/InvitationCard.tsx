@@ -84,7 +84,7 @@ function CandleFlame() {
 
 export default function InvitationCard({ isOpen, setIsOpen }: InvitationCardProps) {
   return (
-    <div className={`w-full min-h-[calc(100vh-80px)] py-12 px-4 md:px-8 flex flex-col items-center justify-center relative ${isOpen ? 'overflow-y-auto' : 'overflow-hidden'} scroll-smooth`}>
+    <div className={`w-full min-h-[calc(100vh-80px)] py-12 px-4 md:px-8 flex flex-col items-center justify-center relative ${isOpen ? 'overflow-y-auto' : 'overflow-hidden no-scrollbar'} scroll-smooth`}>
       
       {/* ================= RICH CINEMATIC PRESENTATION ENVIRONMENT ================= */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">

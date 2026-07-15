@@ -12,7 +12,7 @@ export default function App() {
   };
 
   return (
-    <main className={`min-h-screen bg-velvet text-slate-100 antialiased selection:bg-amber-500/30 selection:text-amber-200 overflow-x-hidden relative ${isOpen ? 'overflow-y-auto' : 'overflow-hidden'}`}>
+    <main className={`min-h-screen bg-velvet text-slate-100 antialiased selection:bg-amber-500/30 selection:text-amber-200 overflow-x-hidden relative ${isOpen ? 'overflow-y-auto' : 'overflow-hidden no-scrollbar'}`}>
       
       {/* Background Soft ambient noise / overlay */}
       <div className="fixed inset-0 bg-[url('https://images.unsplash.com/photo-1518156677180-95a2893f3e9f?auto=format&fit=crop&q=80&w=1200')] bg-cover bg-center opacity-[0.02] mix-blend-overlay pointer-events-none z-50" />
