@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;600;700;900&family=Great+Vibes&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Custom Typography & Utility Classes */
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+.font-cinzel-dec {
+  font-family: 'Cinzel Decorative', serif;
+}
+
+.font-script {
+  font-family: 'Great Vibes', cursive;
+}
+
+/* Luxury Gold Text & Gradients */
+.text-gold-shimmer {
+  background: linear-gradient(
+    90deg,
+    #b38728 0%,
+    #fbf5b7 20%,
+    #daae51 40%,
+    #fbf5b7 60%,
+    #aa771c 80%,
+    #b38728 100%
+  );
+  background-size: 200% auto;
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: goldShimmer 6s linear infinite;
+}
+
+.text-gold {
+  background: linear-gradient(135deg, #f5d061 0%, #e1b12c 50%, #b38728 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-gold-gradient {
+  background: linear-gradient(135deg, #fbf5b7 0%, #d4af37 50%, #9a721d 100%);
+}
+
+.bg-gold-dark {
+  background: linear-gradient(135deg, #d4af37 0%, #aa771c 100%);
+}
+
+.border-gold-elegant {
+  border-image: linear-gradient(to right, #aa771c, #fbf5b7, #aa771c) 1;
+}
+
+/* Shimmer Animation Keyframes */
+@keyframes goldShimmer {
+  0% {
+    background-position: 0% center;
+  }
+  100% {
+    background-position: -200% center;
+  }
+}
+
+/* Custom Scrollbar for Luxury Theme */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #050b14;
+}
+::-webkit-scrollbar-thumb {
+  background: #b38728;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d4af37;
+}
+
+/* Glow & Blur Effects */
+.gold-glow {
+  box-shadow: 0 0 20px rgba(212, 175, 55, 0.15);
+}
+
+.gold-glow-intense {
+  box-shadow: 0 0 35px rgba(212, 175, 55, 0.35);
+}
+
+/* Textured Background for Luxury Cards */
+.bg-velvet {
+  background-color: #060c15;
+  background-image: 
+    radial-gradient(circle at 50% 50%, rgba(13, 27, 49, 0.8) 0%, rgba(5, 11, 20, 1) 100%),
+    radial-gradient(circle at 20% 30%, rgba(212, 175, 55, 0.04) 0%, transparent 50%),
+    radial-gradient(circle at 80% 70%, rgba(212, 175, 55, 0.04) 0%, transparent 50%);
+}
+
+.bg-paper-texture {
+  background-color: #0a111e;
+  background-image: 
+    radial-gradient(rgba(212, 175, 55, 0.03) 1px, transparent 1px),
+    radial-gradient(rgba(255, 255, 255, 0.01) 1px, transparent 1px);
+  background-size: 20px 20px, 40px 40px;
+}

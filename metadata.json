@@ -1,0 +1,6 @@
+{
+  "name": "Farabee Law College Invitation",
+  "description": "A formal, elegant graduation invitation card for the LLB Part 5 graduating session of Farabee Law College, Hafizabad.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
