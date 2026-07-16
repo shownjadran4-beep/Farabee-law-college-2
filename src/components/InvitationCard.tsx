@@ -465,6 +465,9 @@ export default function InvitationCard({ isOpen, setIsOpen }: InvitationCardProp
               <p className="text-[8.5px] font-mono tracking-[0.18em] text-slate-400 uppercase mt-1 font-light">
                 HAFIZABAD
               </p>
+              <p className="font-serif italic text-amber-300/90 text-xs md:text-sm tracking-wide mt-4">
+                ( open invitation for L.L.B Part V students )
+              </p>
             </div>
 
             {/* Interactive Golden Wax Seal Latch */}
@@ -541,6 +544,9 @@ export default function InvitationCard({ isOpen, setIsOpen }: InvitationCardProp
                   </h1>
                   <p className="text-[8px] font-mono tracking-[0.16em] text-slate-400 uppercase mt-1">
                     HAFIZABAD
+                  </p>
+                  <p className="font-serif italic text-amber-300/90 text-[11px] tracking-wide mt-3">
+                    ( open invitation for L.L.B Part V students )
                   </p>
                 </div>
 
